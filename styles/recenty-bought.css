@@ -1,0 +1,101 @@
+.recently-bought {
+    height: 580px;
+}
+
+.recently-bought h1 {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: capitalize;
+    padding: 50px 20px 20px 20px;
+}
+
+.recently-bought-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto;
+    justify-content: center;
+}
+
+.recently-bought-grid-items {
+    padding: 20px;
+    width: 265px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #000;
+}
+
+.recently-bought-grid-items:nth-child(2) .final-price, .recently-bought-grid-items:nth-child(3) .final-price, .recently-bought-grid-items:nth-child(5) .final-price {
+    color: #C1272D;
+}
+
+.recently-bought-details {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.recently-bought-price {
+    padding: 20px;
+    width: 265px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.price {
+    flex: 1;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    display: flex;
+}
+
+.final-price {
+    flex: 1;
+}
+
+.previous-price {
+    text-decoration: line-through
+}
+
+.buy{
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    }
+
+.buy button{
+    padding: 5px 15px;
+    border: 1px solid forestgreen;
+    border-radius: 7px;
+    color: forestgreen;
+    background-color: white;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    transition: 0.2s;
+    cursor: pointer;
+    
+}
+
+.buy button:hover {
+    border: 1px solid forestgreen;
+    border-radius: 7px;
+    color: white;
+    background-color: forestgreen;
+}

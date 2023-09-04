@@ -1,0 +1,46 @@
+.inspo {
+    background-color: #F2F2F2;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.inspo h1 {
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 36px;
+}
+
+.inspo p {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.inspo-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+.inspo-btn {
+    font-family: Montserrat;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px 20px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    transition: .18s ease;
+}
+
+.inspo-btn:hover {
+    color: black;
+    background-color: white;
+}

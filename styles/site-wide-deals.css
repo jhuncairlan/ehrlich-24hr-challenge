@@ -1,0 +1,68 @@
+.site-wide-deals {
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.deals {
+    height: 60px;
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: normal;
+}
+
+.deal-price {
+    width: 110px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.deal-details {
+    height: 20px;
+    font-size: 10px;
+    font-weight: 400;
+    padding: 5px 5px;
+}
+
+.off-price {
+    font-size: 32px;
+    font-weight: 600;
+    padding: 10px 5px;
+}
+
+.off {
+    font-size: 18px;
+    font-weight: 800;
+    padding: 10px 5px;
+}
+
+.deals-btn {
+    display: inline-flex;
+    padding: 10px 20px;
+    align-items: flex-start;
+    gap: 15px;  
+    background-color: black;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.deals-btn:hover {
+    background-color: rgb(226, 221, 221);
+    color: black;
+}

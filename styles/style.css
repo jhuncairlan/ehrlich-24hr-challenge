@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 4000px;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.header {
+display: flex;
+height: 70px;
+justify-content: space-between;
+align-items: center;
+background-color: #FFFFFF;
+}
+
+.left-nav {
+    flex: 1;
+}
+
+.left-nav ul{
+    display: flex;
+    justify-content: space-between;
+    font-family: Montserrat 400;
+    list-style: none;
+
+}
+
+.left-nav ul li {
+    padding: 5px 15px;
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 25px;
+}
+
+.left-nav ul li:hover {
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+}
+
+.left-nav ul li:nth-child(1) {
+    font-weight: 600;
+  }
+
+.logo {
+    width: 192.51px;
+    height: 16px;
+    flex: 1;
+}
+
+.right-nav {
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.right-nav-icons {
+ display: flex;
+ align-items: center;
+ list-style: none;
+}
+
+.right-nav-icons li{
+    margin-right: 25px;
+    cursor: pointer;
+   }
+
+
+.currency {
+    border: 1px solid #F2F2F2;
+    border-radius: 35px;
+    height: 35px;
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 14px;
+    margin: 25px 15px 27px 0px;
+    cursor: pointer;
+}
+
+.flag{
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+
+.down{
+    width: 10px;
+    height: 10px;
+    object-fit: contain;
+}
+
+.benefits {
+    width: 1440px;
+    height: 50px;
+    background-color: #F2F2F2;
+    display: flex;
+}
+
+.benefits img {
+    height: 30px;
+    width: 30px;
+}
+
+.benefits ul {
+    display: flex;
+    list-style: none;
+    width: 1440px;
+    justify-content: space-around;
+}
+
+.benefits ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.benefits ul li:hover {
+    background-color: #ffffff; 
+    border-radius: 15px;
+}
+
+.benefits p {
+    margin: 0px 15px 0px 15px;
+}

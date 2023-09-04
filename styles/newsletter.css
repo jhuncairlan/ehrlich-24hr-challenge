@@ -1,0 +1,51 @@
+.newsletter-signup {
+    height: 75px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter-signup p {
+    color: white;
+    font-weight: 800;
+    font-size: 32px;
+    margin: 0px 25px;
+}
+
+.signup {
+    height: 35px;
+    width: 354px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 25px;
+}
+
+.signup-input {
+    background-color: #F2F2F2;
+    font-family: Montserrat;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    height: 35px;
+    width: 319px;
+    padding: 10px;
+}
+
+.signup-btn {
+    height: 35px;
+    width: 35px;
+    background: none;
+    background-color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.18s ease;
+}
+
+.signup-btn:hover{
+    background-color: rgb(230, 227, 227);
+}

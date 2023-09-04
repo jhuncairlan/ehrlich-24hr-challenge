@@ -1,0 +1,95 @@
+.footer {
+    height: 360px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.info-icons {
+    display: flex;
+}
+
+.footer-info {
+    display: flex;
+    font-size: 12px;
+}
+
+
+.f-list {
+    margin: 0 20px 0 20px;
+}
+
+.f-ul {
+    list-style: none;
+    
+}
+
+.f-ul p{
+    font-family: Montserrat;
+    font-weight: 600;
+    padding: 0 0 10px 0;
+}
+
+.f-ul li{
+    padding: 0 0 10px 0;
+}
+
+.f-ul li a {
+    font-family: Montserrat;
+    text-decoration: none;
+    color: black;
+
+}
+
+
+.footer-icons {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 120px;
+}
+
+.f-i {
+    padding: 0 0 10px 0;
+}
+
+.f-i img {
+    padding: 10px 5px 0 0;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.copyright {
+    position: absolute;
+    bottom: 70.5px;
+    left: 69px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Montserrat;
+}
+
+.footer-logo {
+    position: absolute;
+    width: 192.51px;
+    bottom: 70.5px;
+    right: 69px;
+}

@@ -1,0 +1,73 @@
+.vip {
+    height: 75px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.friday {
+    text-align: center;
+    height: 75px;
+    flex: 1;
+    background: linear-gradient(to right, rgba(255,255,255,0) 20%, rgba(0, 0, 0, 0.8)), url("/images/vip/vip-bg.png");
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.shipping {
+    text-align: left;
+    height: 75px;
+    flex: 1;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vip-btn {
+    text-align: center;
+    height: 75px;
+    flex: 0.5;
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    color: #000;
+}
+
+.vip-btn button {
+    border: none;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    display: inline-flex;
+    padding: 10px 20px;
+    align-items: flex-start;
+    gap: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+    border: 2px solid black;
+}
+
+.vip-btn button:hover {
+    color: white;
+    background-color: #000;
+    border: 2px solid white;
+}

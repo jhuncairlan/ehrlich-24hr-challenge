@@ -137,3 +137,24 @@ background-color: #FFFFFF;
 .benefits p {
     margin: 0px 15px 0px 15px;
 }
+
+.cart-nav {
+    position: relative;
+}
+
+.cart-nav-quantity {
+    font-size: 10px;
+    font-weight: 600;
+    color: white;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 10px;
+    height: 15px;
+    width: 15px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -5px;
+    right: -10px;
+}

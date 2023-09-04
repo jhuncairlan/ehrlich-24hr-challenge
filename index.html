@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="styles/inspo.css" />
     <link rel="stylesheet" href="styles/newsletter.css" />
     <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="styles/cart.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -34,7 +35,10 @@
       <nav class="right-nav">
         <ul class="right-nav-icons">
           <li><link rel="stylesheet" href="" /><img src="images/nav/right-nav/Vector.png" alt="" /></li>
-          <li><link rel="stylesheet" href="" /><img src="images/nav/right-nav/Vector-1.png" alt="" /></li>
+          <li class="cart-nav">
+            <link rel="stylesheet" href="" /><img src="images/nav/right-nav/Vector-1.png" alt="" />
+            <div class="cart-nav-quantity"></div>
+          </li>
           <li><link rel="stylesheet" href="" /><img src="images/nav/right-nav/Vector-2.png" alt="" /></li>
           <li><link rel="stylesheet" href="" /><img src="images/nav/right-nav/Vector-3.png" alt="" /></li>
           <li><link rel="stylesheet" href="" /><img src="images/nav/right-nav/Vector-4.png" alt="" /></li>
@@ -191,8 +195,8 @@
         <h1>Recently Bought</h1>
         <div class="recently-bought-grid">
           <section class="recently-bought-grid-items">
-            <div class="recently-bought-image"><img src="/images/recently-bought/recently-bought-1.png" alt="" /></div>
-            <div class="recently-bought-details"><p>Festive Looks Rust Red Ribbed Velvet Long Sleeve Bodysuit</p></div>
+            <div class="recently-bought-image"><img src="/images/recently-bought/recently-bought-1.png" alt="" class="items-img" /></div>
+            <div class="recently-bought-details"><p class="items-details">Festive Looks Rust Red Ribbed Velvet Long Sleeve Bodysuit</p></div>
             <div class="recently-bought-price">
               <div class="price">
                 <p class="final-price">$38</p>
@@ -202,8 +206,8 @@
             </div>
           </section>
           <section class="recently-bought-grid-items">
-            <div class="recently-bought-image"><img src="/images/recently-bought/recently-bought-2.png" alt="" /></div>
-            <div class="recently-bought-details"><p>Chevron Flap Crossbody Bag</p></div>
+            <div class="recently-bought-image"><img src="/images/recently-bought/recently-bought-2.png" alt="" class="items-img" /></div>
+            <div class="recently-bought-details"><p class="items-details">Chevron Flap Crossbody Bag</p></div>
             <div class="recently-bought-price">
               <div class="price">
                 <p class="final-price">$5.77</p>
@@ -213,8 +217,8 @@
             </div>
           </section>
           <section class="recently-bought-grid-items">
-            <div class="recently-bought-image"><img src="/images/recently-bought/recently-bought-3.png" alt="" /></div>
-            <div class="recently-bought-details"><p>Manilla Tan Multi Plaid Oversized Fringe Scarf</p></div>
+            <div class="recently-bought-image"><img src="/images/recently-bought/recently-bought-3.png" alt="" class="items-img" /></div>
+            <div class="recently-bought-details"><p class="items-details">Manilla Tan Multi Plaid Oversized Fringe Scarf</p></div>
             <div class="recently-bought-price">
               <div class="price">
                 <p class="final-price">$29</p>
@@ -224,8 +228,8 @@
             </div>
           </section>
           <section class="recently-bought-grid-items">
-            <div class="recently-bought-image"><img src="/images/recently-bought/recently-bought-4.png" alt="" /></div>
-            <div class="recently-bought-details"><p>Diamante Puff Sleeve Dress - Black</p></div>
+            <div class="recently-bought-image"><img src="/images/recently-bought/recently-bought-4.png" alt="" class="items-img" /></div>
+            <div class="recently-bought-details"><p class="items-details">Diamante Puff Sleeve Dress - Black</p></div>
             <div class="recently-bought-price">
               <div class="price">
                 <p class="final-price">$45.99</p>
@@ -235,8 +239,8 @@
             </div>
           </section>
           <section class="recently-bought-grid-items">
-            <div class="recently-bought-image"><img src="/images/recently-bought/recently-bought-5.png" alt="" /></div>
-            <div class="recently-bought-details"><p>Banneth Open Front Formal Dress in Blacks</p></div>
+            <div class="recently-bought-image"><img src="/images/recently-bought/recently-bought-5.png" alt="" class="items-img" /></div>
+            <div class="recently-bought-details"><p class="items-details">Banneth Open Front Formal Dress in Blacks</p></div>
             <div class="recently-bought-price">
               <div class="price">
                 <p class="final-price">$69</p>
@@ -324,6 +328,14 @@
       <p class="copyright">2021 THREADED All Rights Reserved</p>
       <img src="./images/nav/logo/Logo.svg" alt="" class="footer-logo" />
     </footer>
+    <section class="checkout-cart">
+      <div class="cart-menu">
+        <button class="checkout-total">Total</button>
+        <button class="close-cart">Close</button>
+      </div>
+      <h1>Shopping Bag</h1>
+      <ul class="cart-ul"></ul>
+    </section>
     <script src="/app.js"></script>
   </body>
 </html>
